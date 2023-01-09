@@ -28,6 +28,7 @@
 │   └── middleware                      中间件
 │       └── authMiddleware.go           jwt验证中间件
 │       └── recoverMiddleware.go        全局错误捕获中间件
+│       └── corsMiddleware.go           cors中间件
 │   └── model                           模型类目录
 │   └── router                          路由
 │   └── service                         业务逻辑目录

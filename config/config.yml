@@ -1,0 +1,34 @@
+server:
+  port: 9001
+
+grpc:
+  enabled: true
+  port: 9002
+
+datasource:
+  driverName: mysql
+  host: 121.43.42.249
+  port: 3309
+  database: temp
+  username: root
+  password: 123456
+  charset: "utf8mb4"
+  loc: Local
+  tablePrefix: ""
+
+redis:
+  host: 192.168.0.88:6379
+  db: 0
+  password: lyh.123456
+
+log:
+  filePath: ./runtime/logs/
+  fileName: system.log
+
+cron:
+  enabled: false
+
+modelCache:
+  key: '{mc:%s}:%s:%s'
+  ttl: 1500
+  emptyTTL: 15
