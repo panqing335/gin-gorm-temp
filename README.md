@@ -141,6 +141,8 @@ app/utils/genModel.go                   // 生成model文件
 app/utils/Iterator.go                   // 泛型迭代器
 app/utils/paginator/bind.go             // 分页器
 app/utils/logger.go                     // 日志封装
+
+app/common/cache/findFromCache.go       // 模型缓存方法
 ...
 ```
 
